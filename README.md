@@ -6,10 +6,31 @@ A starter repo to handle statistic data for academic
 
 ![](architecture.png)
 
-## Docker
+
+## Local
+
+##### Install
+
+```
+pip install --no-cache-dir --root-user-action=ignore -r requirements.txt
+```
 
 ##### Run
 
 ```
-./run.sh
+python index.py
+```
+
+## Docker
+
+##### Install
+
+```
+./script/install.sh
+```
+
+##### Run
+
+```
+./script/run.sh
 ```
