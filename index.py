@@ -27,7 +27,7 @@ print('\n-------------- End\n')
 print('===========================================================\n')
 
 print('Report: ----------\n')
-reportModule.Report().generate(data)
+reportModule.Report().generate(results)
 print('\n-------------- End\n')
 
 print('===========================================================\n')

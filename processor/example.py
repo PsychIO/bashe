@@ -3,5 +3,4 @@ class Processor:
     pass
 
   def process(self, data):
-    data.append('d')
-    return data
+    return [item for item in data if item['is_active'] == 1]
