@@ -132,4 +132,4 @@ dmypy.json
 .vscode
 
 # Result
-results/*
+results/*.png
